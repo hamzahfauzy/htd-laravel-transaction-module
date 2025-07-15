@@ -19,7 +19,7 @@
             <div class="card">
                 <div class="card-header text-center">
                     <h4>Transaction Detail<br>{{date('j F Y', strtotime($date))}}</h4>
-                    <button class="btn btn-sm btn-primary" onclick="window.print()">Print</button>
+                    <button class="btn btn-sm btn-primary btn-print" onclick="window.print()">Print</button>
                 </div>
                 <div class="card-body table-responsive">
                     <table class="table table-bordered">
